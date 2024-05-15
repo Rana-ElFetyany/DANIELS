@@ -1,0 +1,803 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+
+    font-family: "Poppins", sans-serif;
+}
+
+/* !--> navbar SECTION  <-- */
+
+
+.navbar .navbar-brand {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.navbar .nav-item {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+nav .nav-link,
+.active {
+    position: relative;
+}
+
+nav .active::before {
+    content: '';
+    width: 75%;
+    height: 1.5px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0px;
+    left: 10x;
+    transition: all 0.3s;
+}
+
+
+.navbar .navbar-nav>li>a {
+    color: #fff !important;
+    position: relative;
+    overflow: hidden;
+}
+
+/* !--> Home SECTION  <-- */
+
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../imges/bg.jpg);
+    background-position: left top;
+    background-size:cover;
+    height: 100vh;
+}
+
+.home .content {
+    height: 100vh;
+}
+
+.home .content .anim::after {
+    content: "";
+    font-weight: 100px;
+    animation: typing 7s infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "";
+    }
+
+    1% {
+        content: "L";
+    }
+
+    2% {
+        content: "La";
+    }
+
+    3% {
+        content: "Lar";
+    }
+
+    4% {
+        content: "Larr";
+    }
+
+    5% {
+        content: "Larry";
+    }
+
+    6% {
+        content: "Larry ";
+    }
+
+    7% {
+        content: "Larry D";
+    }
+
+    8% {
+        content: "Larry Da";
+    }
+
+    9% {
+        content: "Larry Dan";
+    }
+
+    10% {
+        content: "Larry Dani";
+    }
+
+    11% {
+        content: "Larry Danie";
+    }
+
+    12% {
+        content: "Larry Daniel";
+    }
+
+    13% {
+        content: "Larry Daniels";
+    }
+
+    14% {
+        content: "Larry Daniels";
+    }
+
+    15% {
+        content: "Larry Daniels";
+    }
+
+    16% {
+        content: "Larry Daniels";
+    }
+
+    17% {
+        content: "Larry Daniels";
+    }
+
+
+    18% {
+        content: "Larry Daniel";
+    }
+
+    19% {
+        content: "Larry Danie";
+    }
+
+    20% {
+        content: "Larry Dani";
+    }
+
+    21% {
+        content: "Larry Dan";
+    }
+
+    22% {
+        content: "Larry Da";
+    }
+
+    23% {
+        content: "Larry D";
+    }
+
+    24% {
+        content: "Larry ";
+    }
+
+    25% {
+        content: "Larry";
+    }
+
+    26% {
+        content: "Larr";
+    }
+
+    27% {
+        content: "Lar";
+    }
+
+    28% {
+        content: "La";
+    }
+
+    29% {
+        content: "L";
+    }
+
+    30% {
+        content: "";
+    }
+
+    31% {
+        content: "D";
+    }
+
+    32% {
+        content: "De";
+    }
+
+    33% {
+        content: "Dev";
+    }
+
+    34% {
+        content: "Deve";
+    }
+
+    35% {
+        content: "Devel";
+    }
+
+    36% {
+        content: "Develo";
+    }
+
+    37% {
+        content: "Develop";
+    }
+
+    38% {
+        content: "Develope";
+    }
+
+    39% {
+        content: "Developer";
+    }
+
+    40% {
+        content: "Developer";
+    }
+
+    41% {
+        content: "Developer";
+    }
+
+    42% {
+        content: "Developer";
+    }
+
+    43% {
+        content: "Developer";
+    }
+
+    44% {
+        content: "Develope";
+    }
+
+    45% {
+        content: "Develop";
+    }
+
+    46% {
+        content: "Develo";
+    }
+
+    47% {
+        content: "Devel";
+    }
+
+    48% {
+        content: "Deve";
+    }
+
+    49% {
+        content: "Dev";
+    }
+
+    50% {
+        content: "De";
+    }
+
+    51% {
+        content: "D";
+    }
+
+    52% {
+        content: "";
+    }
+
+    53% {
+        content: "D";
+    }
+
+    54% {
+        content: "De";
+    }
+
+    55% {
+        content: "Des";
+    }
+
+    56% {
+        content: "Desi";
+    }
+
+    57% {
+        content: "Desig";
+    }
+
+    58% {
+        content: "Design";
+    }
+
+    59% {
+        content: "Designe";
+    }
+
+    60% {
+        content: "Designer";
+    }
+
+    61% {
+        content: "Designer";
+    }
+
+    62% {
+        content: "Designer";
+    }
+
+    63% {
+        content: "Designer";
+    }
+
+    64% {
+        content: "Designer";
+    }
+
+    65% {
+        content: "Designe";
+    }
+
+    66% {
+        content: "Design";
+    }
+
+    67% {
+        content: "Desig";
+    }
+
+    68% {
+        content: "Desi";
+    }
+
+    69% {
+        content: "Des";
+    }
+
+    70% {
+        content: "De";
+    }
+
+    71% {
+        content: "D";
+    }
+
+    72% {
+        content: "";
+    }
+
+    73% {
+        content: "";
+    }
+
+}
+
+.home .content .icons .ico-circ {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
+
+/* !--> ABOUT SECTION  <-- */
+
+.about h3 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.about .photoo {
+    position: relative;
+}
+
+.about .photoo .bg {
+    background-image: url(../imges/dots.png);
+    background-repeat: repeat;
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    bottom: -20px;
+    right: 60px;
+    z-index: -1;
+}
+
+.about .prag {
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.about .prag2 {
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.about .progress {
+    box-shadow: inset;
+}
+
+.about .progress-bar {
+    transition: width .6s ease;
+}
+
+.about .buttons .btn {
+    font-size: 13px;
+    transition: all 0.5s;
+}
+
+.about .buttons .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.about .buttons .btn-dark {
+    transition: all 0.5s;
+}
+
+.about .buttons .btn-dark:hover {
+    background-color: white;
+    color: black;
+}
+
+/* !--> Services SECTION  <-- */
+
+.Services .title {
+    position: relative;
+}
+
+.Services .title .bg {
+    background-image: url(../imges/dots.png);
+    background-repeat: repeat;
+    width: 200px;
+    height: 55%;
+    position: absolute;
+    top: 25px;
+    z-index: 1;
+}
+
+.Services .serv {
+    font-weight: 900;
+    position: relative;
+    z-index: 100;
+}
+
+.Services .cards .card-body .icn-circle {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.Services .cards .card-body:hover .icn-circle {
+    background-color: black;
+    color: white;
+}
+
+.Services .cards .c-p {
+    font-size: 14px;
+}
+
+/* !--> Portfolio SECTION  <-- */
+
+.portfolio .title {
+    position: relative;
+}
+
+.portfolio .title .bg {
+    background-image: url(../imges/dots.png);
+    background-repeat: repeat;
+    width: 200px;
+    height: 45%;
+    position: absolute;
+    top: 25px;
+    z-index: 1;
+}
+
+.portfolio .serv {
+    font-weight: 900;
+    position: relative;
+    z-index: 100;
+}
+
+.nav-pills .nav-link,
+.nav-pills .show>.nav-link e {
+    position: relative;
+    left: 0px;
+
+}
+
+.nav-pills .nav-link::after,
+.nav-pills .show>.nav-link e::after {
+    content: '';
+    position: absolute;
+    height: 2.5px;
+    width: 0%;
+    bottom: -8px;
+    left: 12px;
+    padding: 0px;
+
+    background-color: #1C1C1C;
+    transition: all 0.3s;
+}
+
+.nav-pills .nav-link.active:focus::after,
+.nav-pills .show>.nav-link e:focus::after {
+    width: 75%;
+    padding: 0px;
+}
+
+.nav-pills .nav-link.active::after,
+.nav-pills .show>.nav-link e::after {
+    width: 55%;
+    padding: 0px;
+}
+
+.portfolio .taps .cardd .layer {
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    transform: translateY(10px);
+    opacity: 0;
+    background-color: #ffffffe2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.5s;
+}
+
+.portfolio .taps .cardd:hover .layer {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.portfolio .taps .cardd h6 {
+    transform: translateY(-20px);
+    transition: all 0.5s;
+}
+
+.portfolio .taps .cardd .icons {
+    transform: translateY(20px);
+    transition: all 0.5s;
+
+}
+
+.portfolio .taps .cardd:hover h6 {
+    transform: translateY(0);
+}
+
+.portfolio .taps .cardd:hover .icons {
+    transform: translateY(-0);
+}
+
+.portfolio .taps .cardd .layer .icons .icon-circle {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.portfolio .taps .cardd .layer .icons .icon-circle:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.portfolio .taps .cardd .layer .icons .icon-circle i {
+    font-size: 12px;
+}
+
+.portfolio .taps .cardd .layer h6 {
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+
+
+/* !--> Testimonial SECTION  <-- */
+
+.Testimonial .title {
+    position: relative;
+}
+
+.Testimonial .title .bg {
+    background-image: url(../imges/dots.png);
+    background-repeat: repeat;
+    width: 280px;
+    height: 45%;
+    position: absolute;
+    top: 25px;
+    z-index: 1;
+}
+
+.Testimonial .serv {
+    font-weight: 900;
+    position: relative;
+    z-index: 100;
+}
+
+.Testimonial .carousel-item img {
+    width: 100px;
+}
+
+.Testimonial .carousel-item .p1 {
+    font-size: 15px;
+}
+
+.Testimonial .carousel-item .p2 {
+    font-size: 12px;
+}
+
+.Testimonial .carousel-indicators .bttn {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.605);
+}
+
+.Testimonial .carousel-indicators .active {
+    background-color: rgba(128, 128, 128, 0.803);
+}
+
+/* !--> NUMS SECTION  <-- */
+
+.nums h3 {
+    font-weight: 900;
+}
+
+/* !--> Our Team SECTION  <-- */
+
+.Team .title {
+    position: relative;
+}
+
+.Team .title .bg {
+    background-image: url(../imges/dots.png);
+    background-repeat: repeat;
+    width: 220px;
+    height: 25%;
+    position: absolute;
+    top: 25px;
+    z-index: 1;
+}
+
+.Team .serv {
+    font-weight: 900;
+    position: relative;
+    z-index: 100;
+}
+
+.Team .card .imgg .overlaayy {
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    transform: rotateY(180deg) scale(0.4);
+    opacity: 0;
+    background-color: #ffffffe2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.5s;
+}
+
+.Team .card:hover .imgg .overlaayy {
+    opacity: 1;
+    transform: rotateY(0deg);
+}
+
+.Team .card .imgg img {
+    transition: all 0.3s;
+}
+
+.Team .card:hover .imgg img {
+    scale: 1.2;
+}
+
+.Team .card .icons .icon-circle {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.Team .card .icon-circle:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.Team .card .icon-circle i {
+    font-size: 18px;
+}
+
+/* !--> Our Team SECTION  <-- */
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .ccontainer {
+    width: 60%;
+}
+
+.contact .title {
+    position: relative;
+}
+
+.contact .title .bg {
+    background-image: url(../imges/dots.png);
+    background-repeat: repeat;
+    width: 250px;
+    height: 20%;
+    position: absolute;
+    top: 72px;
+    z-index: 1;
+}
+
+.contact .serv {
+    font-weight: 900;
+    position: relative;
+    z-index: 100;
+}
+
+.contact .icons p {
+    font-size: 15px;
+}
+
+.contact .icons .icon-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    transition: all 0.7s;
+}
+
+.contact .icons:hover .icon-circle {
+    background-color: black;
+    color: white;
+}
+
+.contact input {
+    background-color: #f4f4f4;
+    font-size: 14px;
+}
+
+.contact input:focus {
+    background-color: #f4f4f4;
+}
+
+.contact textarea {
+    background-color: #f4f4f4;
+    font-size: 14px;
+}
+
+.contact textarea:focus {
+    background-color: #f4f4f4;
+}
+
+.contact .contForm .btn {
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.contact .contForm .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* !--> Our Team SECTION  <-- */
+
+footer p {
+    font-size: 14px;
+}

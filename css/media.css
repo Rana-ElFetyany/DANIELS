@@ -1,0 +1,21 @@
+@media screen and (max-width:1024px) {
+    .container{
+        width: 100%  !important;
+    }
+
+    .ccontainer{
+        width: 95% !important;
+    }
+
+    .home .content h1{
+        font-size: 50px;
+    }
+
+    .serv{
+        font-size: 40px;
+    }
+
+    .Testimonial .carousel-inner{
+        width: 100%;
+    }
+}
